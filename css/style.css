@@ -17,12 +17,9 @@ img {
 body{
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 
-main{
-    text-align: center;
- 
-}
 
 .section-title {
     color: rgb(255, 0, 148);
