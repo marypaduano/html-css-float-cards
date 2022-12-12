@@ -4,12 +4,18 @@
     padding: 0;
 }
 
+html{
+    font-family: 'Fredoka One', cursive;
+}
+
 img {
     max-width: 100%;
+    float: left;
+    width: 80px;
 }
 
 body{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -20,11 +26,38 @@ main{
 
 .section-title {
     color: rgb(255, 0, 148);
-    font-family: 'Fredoka One', cursive;
     font-size: 30px;
     padding: 20px;
 }
 
 .description {
-  font: weight 600px;;
+  margin-bottom: 50px;
+}
+
+.container {
+    display: inline;  
+   
+}
+
+address{
+    color: rgb(61, 61, 230);
+}
+
+.card {
+    width: calc(98% / 3);
+    background-color: black;
+    box-shadow: 10px;
+    color: white;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  
+}
+
+.card:nth-of-type(3n + 3) {
+    margin-right: 0;
+}
+
+h3 {
+    padding: 5px;
 }
