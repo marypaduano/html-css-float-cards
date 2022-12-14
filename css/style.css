@@ -38,6 +38,12 @@ body{
     display: inline-block;  
    
 }
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
 
 address{
     color: rgb(61, 61, 230);
